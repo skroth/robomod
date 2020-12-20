@@ -1,0 +1,12 @@
+{
+  "name": "robomod",
+  "version": "1.0.0",
+  "description": "stupid for fun discord bot",
+  "main": "index.js",
+  "repository": "git@github.com:skroth/robomod.git",
+  "author": "Sean K. Roth <git@sean.skroth.net>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}

@@ -6,7 +6,7 @@ const insults = require("./insults.js");
 const roomName = "nicebot";
 const badLetter = "a";
 
-const config = JSON.parse(fs.readFileSync('config.json'));
+const config = JSON.parse(fs.readFileSync('./config.json'));
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
